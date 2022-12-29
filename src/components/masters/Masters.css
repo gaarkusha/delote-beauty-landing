@@ -1,0 +1,68 @@
+.masters-content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.masters-title h2 {
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3em;
+    cursor: default;
+}
+
+.masters-content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.master-content {
+    width: 290px;
+    margin-top: 50px;
+}
+
+.master-photo {
+    width: 290px;
+}
+
+.master-photo img {
+    width: 290px;
+    height: 345px;
+    position: relative;
+}
+
+.master-photo::before {
+    content: '';
+    width: 290px;
+    height: 345px;
+    border: 2px solid #CDAA7D;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.master-name {
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3em;
+    cursor: default;
+}
+
+.master-skill {
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-size: 1.1em;
+    cursor: default;
+}

@@ -1,0 +1,71 @@
+.header-wrapper {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 37px;
+}
+
+.header-container {
+    width: 70%;    
+}
+
+.link-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-line{
+    height: 1px;
+    background: #fff;
+    opacity: 0.5;
+    margin-top: 37px;
+}
+
+.inst-logo {
+    background: url(../../assets/inst.svg);
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat; 
+}
+
+.burger-btn {
+    background: url(../../assets/close-icon.svg);
+    width: 32px;
+    height: 32px;
+}
+
+.main-logo {
+    background: url(../../assets/logo.svg);
+    width: 40px;
+    height: 40px;
+}
+
+.main-logo:hover {
+    color: #CDAA7D;
+}
+
+.link-item-text {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.link-item-text:hover {
+    color: #CDAA7D;
+    border-bottom: 1px solid #CDAA7D;
+    padding-bottom: 2px;
+}
+

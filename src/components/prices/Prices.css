@@ -1,0 +1,87 @@
+.prices-content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.prices-title h2 {
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3em;
+    cursor: default;
+}
+
+.price-service-wrapper{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service-price-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.photo-service {
+    width: 400px;
+}
+
+.photo-service img {
+    width: 450px;
+}
+
+.price-wrapper {
+    width: 400px;
+}
+
+.price-block {
+    margin: 15px 0;
+}
+
+.price-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-name {
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    cursor: default;
+}
+
+.price-name-add {
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-size: 1.2em;
+    cursor: default;
+}
+
+.price {
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    cursor: default;
+}
+
+.price-block-line {
+    margin-top: 5px;
+    height: 1px;
+    background: #fff;
+    opacity: 0.5;
+}

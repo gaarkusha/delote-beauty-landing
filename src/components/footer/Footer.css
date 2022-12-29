@@ -1,0 +1,104 @@
+.footer-content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+.footer-content {
+    width: 85%;
+}
+
+.footer-content-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.footer-link-item {
+    display: flex;
+    align-items: center;
+}
+
+.contats-wrapper h3 {
+    cursor: default;
+    color: #fff;
+    margin-bottom: 5px;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.contats-wrapper p {
+    cursor: default;
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+.operating-mode-wrapper h3 {
+    cursor: default;
+    color: #fff;
+    margin-bottom: 5px;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.operating-mode-wrapper p {
+    cursor: default;
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+.footer-inst-link h3 {
+    cursor: default;
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.footer-inst-logo {
+    background: url(../../assets/inst.svg) no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: 50px; 
+}
+
+.footer-main-logo {
+    background: url(../../assets/logo.svg) no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 70px;
+}
+
+.footer-line{
+    height: 1px;
+    background: #fff;
+    opacity: 0.5;
+    margin-top: 37px;
+}
+
+.copyrigth-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.copyrigth-text p {
+    cursor: default;
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-size: 1.1em;
+}

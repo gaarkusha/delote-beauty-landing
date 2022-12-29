@@ -1,0 +1,52 @@
+.services-cards-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-cards {
+    margin: 110px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.service-card {
+    width: 290px;
+    margin: 0 5px;
+    margin-bottom: 35px;
+}
+
+.card-photo img {
+    width: 290px;
+    position: relative;
+}
+
+.card-photo::before {
+    content: '';
+    width: 290px;
+    height: 220px;
+    border: 2px solid #CDAA7D;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.card-name {
+    color: #fff;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.products-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+}
