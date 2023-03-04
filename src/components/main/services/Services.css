@@ -7,7 +7,7 @@
 }
 
 .services-cards {
-    margin: 110px 0;
+    margin: 7% 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,4 +49,22 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 70%;
+}
+
+@media screen and (max-width: 500px) {
+    .services-cards {
+        width: 95%;
+        justify-content: center;
+    }
+    .products-card {
+        display: flex;
+        justify-content: center;
+        width: 95%;
+    }
+    .product-card {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
 }

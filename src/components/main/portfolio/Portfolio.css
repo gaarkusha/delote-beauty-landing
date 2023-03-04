@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    margin-top: 110px;
+    margin-top: 7%;
     margin-bottom: 60px;
 }
 
@@ -31,4 +31,10 @@
 
 .portfolio-photo img {
     width: 290px;
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio-title h2 {
+        font-size: 2em;
+    }
 }

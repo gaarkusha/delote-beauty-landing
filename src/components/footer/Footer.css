@@ -13,6 +13,7 @@
 .footer-content-info {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 50px 0;
 }
 
@@ -101,4 +102,30 @@
     font-family: 'Garamond';
     font-style: normal;
     font-size: 1.1em;
+}
+
+@media screen and (max-width: 500px) {
+    .contats-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .operating-mode-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .footer-inst-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px 0;
+    }
 }

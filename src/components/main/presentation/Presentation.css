@@ -4,22 +4,21 @@
 
 .bgc-img {
     height: 100vh;
-    background: url(../../../assets/bgc.png);
+    background: url(../../../assets/bgc.png) no-repeat;
     background-size: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.present-title {
+.present-title h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 961px;
     font-family: 'Garamond';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 4em;
     color: #fff;
 }
 
@@ -35,11 +34,28 @@
 .present-text {
     text-align: center;
     padding-top: 70px;
-    width: 856px;
-    height: 261px;
+    width: 70%;
     font-family: 'Cormorant Garamond';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 130%;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 500px) {
+    .present-title h1 {
+        font-size: 2em;
+    }
+
+    .present-text {
+        font-size: 1.2em;
+    }
+
+    .heading-title img {
+        width: 15%;
+    }
+    .bgc-img {
+        background: url(../../../assets/bgc-mobile.png) no-repeat;
+        background-size: 100%;
+        max-height: 100%;
+    }
 }
